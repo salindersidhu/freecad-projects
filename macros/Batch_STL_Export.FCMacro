@@ -1,0 +1,29 @@
+import FreeCAD as App
+import Mesh
+import os
+import re
+
+doc = App.ActiveDocument
+
+if doc is None:
+    raise Exception("No active document")
+
+folder = os.path.dirname(doc.FileName)
+
+if folder == "":
+    raise Exception("Project not saved")
+
+def safe_filename(name):
+    # Replace invalid filename characters with underscore
+    return re.sub(r'[<>:"/\\|?*]', '_', name)
+
+for obj in doc.Objects:
+    if obj.TypeId == "PartDesign::Body":
+        name = safe_filename(obj.Label)
+        filepath = os.path.join(folder, f"{name}.stl")
+
+        if hasattr(obj, "Shape") and obj.Shape:
+            Mesh.export([obj], filepath)
+            print(f"Exported: {filepath}")
+
+print("Done.")

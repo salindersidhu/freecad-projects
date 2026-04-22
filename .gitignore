@@ -1,0 +1,31 @@
+# FreeCAD temporary and backup files
+*.FCStd1
+*.FCStd~
+*.FCBak
+*.bak
+*~
+*backup*
+
+# FreeCAD GUI configuration
+*.fcstd.lockfile
+
+# Macro generated files
+*.json
+
+# FreeCAD export outputs
+*.stl
+*.step
+*.stp
+*.iges
+*.igs
+*.obj
+*.dxf
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class

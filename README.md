@@ -36,6 +36,15 @@ A custom control panel designed for integrating both a TDA2822-based amplifier P
 
 The panel includes precisely positioned cutouts for the USB-C power input, status LED, power switch, volume control knob, and AUX input, creating a clean and organized exterior appearance. The focus of the design is on component fitment, ease of assembly, and providing a professional looking interface for DIY speaker projects.
 
+### Lithophane Lightbox
+`projects/LithophaneLightbox.FCStd`
+
+A single-piece passive lithophane lightbox designed to illuminate a 56 mm × 100 mm rectangular lithophane. The lithophane is held at a 45° angle within the enclosure to improve light distribution and viewing angle while maintaining a compact form factor.
+
+The bottom of the enclosure includes a 10 mm radius cutout designed to accept an LED spotlight, bulb, or flashlight as the light source. The lithophane is press-fit into position, allowing for simple installation without additional hardware.
+
+The design focuses on ease of 3D printing, compatibility with common light sources, and improved light diffusion. Adding a reflective coating to the interior surfaces can further enhance brightness and illumination uniformity.
+
 ## Macros
 
 ### Batch STL Export 

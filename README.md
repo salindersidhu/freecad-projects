@@ -45,6 +45,13 @@ The bottom of the enclosure includes a 10 mm radius cutout designed to accept an
 
 The design focuses on ease of 3D printing, compatibility with common light sources, and improved light diffusion. Adding a reflective coating to the interior surfaces can further enhance brightness and illumination uniformity.
 
+### RGB LED Dimmer Enclosure
+`projects/LEdDimmerEnclosure.FCStd`
+
+A custom 3D printed enclosure designed to house a DIY RGB LED dimmer PCB and USB-C PD power module. The enclosure provides dedicated mounting and clearance for the electronics, wiring, and taller components while maintaining a compact form factor.
+
+The design focuses on PCB fitment, component clearance, cable routing, and practical PETG 3D-printing tolerances. The enclosure was refined through physical assembly and fit testing to accommodate the actual components used in the finished RGB LED lighting system.
+
 ## Macros
 
 ### Batch STL Export 

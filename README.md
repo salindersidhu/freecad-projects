@@ -18,12 +18,16 @@ Repository of personal CAD models and mechanical designs created in FreeCAD. Inc
 ### Humidifier Enclosure
 `projects/HumidifierEnclosure.FCStd`
 
+![Humidifier Enclosure View](/images/HumidifierEnclosure.png)![Humidifier Enclosure View 2](/images/HumidifierEnclosure2.png)![Humidifier Enclosure View 3](/images/HumidifierEnclosure3.png)
+
 This project is a custom-designed enclosure for a DC 5V ultrasonic humidifier module (atomizer-based). The enclosure is built to securely house the mist generator, allowing proper airflow while maintaining structural stability and water isolation considerations. It is designed with compact integration in mind for DIY humidifier builds and electronic enclosure prototyping.
 
 The design takes into account module mounting, internal clearance for wiring, and real-world fitment of inexpensive ultrasonic atomizer units commonly found in DIY kits.
 
 ### Risophy Keyboard USB-C Adapter
 `projects/RisophyKeyboardUSBCAdapter.FCStd`
+
+![Risophy Keyboard USBC Adapter View](/images/RisophyKeyboardUSBCAdapter.png)
 
 A mechanical USB-C adapter housing designed for the Risophy Mechanical Gaming Keyboard RGB 104 Keys Ultra Slim LED Backlit USB Wired Keyboard Blue Switch. This adapter modifies or extends the keyboard’s connectivity to support a more robust USB-C interface while maintaining a clean physical integration.
 
@@ -32,12 +36,16 @@ The design focuses on tight tolerances for connector fitment, internal strain re
 ### Speaker Control Panel
 `projects/SpeakerControlPanel.FCStd`
 
+![Speaker Control Panel View](/images/SpeakerControlPanel.png)![Speaker Control Panel View 2](/images/SpeakerControlPanel2.png)![Speaker Control Panel View 3](/images/SpeakerControlPanel3.png)
+
 A custom control panel designed for integrating both a TDA2822-based amplifier PCB and a USB-C PD trigger module into a speaker enclosure. The design provides dedicated mounting platforms for each PCB using screw inserts, ensuring secure installation and easy servicing.
 
 The panel includes precisely positioned cutouts for the USB-C power input, status LED, power switch, volume control knob, and AUX input, creating a clean and organized exterior appearance. The focus of the design is on component fitment, ease of assembly, and providing a professional looking interface for DIY speaker projects.
 
 ### Lithophane Lightbox
 `projects/LithophaneLightbox.FCStd`
+
+![Lithophane Lightbox View](/images/LithophaneLightbox.png)
 
 A single-piece passive lithophane lightbox designed to illuminate a 56 mm × 100 mm rectangular lithophane. The lithophane is held at a 45° angle within the enclosure to improve light distribution and viewing angle while maintaining a compact form factor.
 
@@ -46,7 +54,9 @@ The bottom of the enclosure includes a 10 mm radius cutout designed to accept an
 The design focuses on ease of 3D printing, compatibility with common light sources, and improved light diffusion. Adding a reflective coating to the interior surfaces can further enhance brightness and illumination uniformity.
 
 ### RGB LED Dimmer Enclosure
-`projects/LEdDimmerEnclosure.FCStd`
+`projects/LEDDimmerEnclosure.FCStd`
+
+![RGB LED Dimmer Enclosure View](/images/LEDDimmerEnclosure.png)![RGB LED Dimmer Enclosure View 2](/images/LEDDimmerEnclosure2.png)
 
 A custom 3D printed enclosure designed to house a DIY RGB LED dimmer PCB and USB-C PD power module. The enclosure provides dedicated mounting and clearance for the electronics, wiring, and taller components while maintaining a compact form factor.
 
